@@ -5,7 +5,7 @@ Vue.use(VueRouter);
 
 
 import Home from './pages/Home.vue';
-import Search from './pages/Search.vue';
+import Results from './pages/Results.vue';
 import AdvSearch from './pages/AdvSearch.vue';
 import House from './pages/House.vue';
 import Message from './pages/Message.vue';
@@ -21,9 +21,9 @@ const router = new VueRouter({
             component: Home
         },
         {
-            path: '/search',
-            name: 'search',
-            component: Search
+            path: '/results',
+            name: 'results',
+            component: Results
         },
         {
             path: '/advsearch',

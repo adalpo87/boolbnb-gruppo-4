@@ -5,7 +5,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class HouseController extends Controller
+class MessageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class HouseController extends Controller
      */
     public function index()
     {
-        return view('user.house.index');
+        return view('user.message.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class HouseController extends Controller
      */
     public function create()
     {
-        return view('user.house.create');
+        //
     }
 
     /**
@@ -46,7 +46,7 @@ class HouseController extends Controller
      */
     public function show($id)
     {
-        
+        return view('user.message.show');
     }
 
     /**
@@ -57,7 +57,7 @@ class HouseController extends Controller
      */
     public function edit($id)
     {
-        return view('user.house.edit');
+        //
     }
 
     /**

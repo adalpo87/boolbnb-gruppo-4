@@ -25,7 +25,6 @@
 
                     <div>
                         <ul>
-
                             <li class="mb-2">
                                 <a class="btn btn-dark" href="{{ route('user.house.create') }}">Inserisci una nuova casa</a>
                             </li>
@@ -33,7 +32,7 @@
                                 <a class="btn btn-dark" href="{{ route('user.house.index') }}">Visualizza le tue case</a>
                             </li>
                             <li class="mb-2">
-                                <a class="btn btn-dark" href="{{ route('user.message') }}">Vedi messaggi</a>
+                                <a class="btn btn-dark" href="{{ route('user.message.index') }}">Vedi messaggi</a>
                             </li>
                             <li class="mb-2">
                                 <a class="btn btn-dark" href="{{ route('user.sponsor') }}">Sponsor</a>

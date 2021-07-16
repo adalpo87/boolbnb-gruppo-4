@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\User\MessageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,8 +29,7 @@ Route::middleware('auth')
     ->group(function(){
         Route::get('/','HomeController@index')->name('home');
         Route::resource('/house', 'HouseController');
-        Route::get('/message', function () {
-            return view('user.house.message');})->name('message');
+        Route::resource('/message', 'MessageController');
         Route::get('/sponsor', function () {
             return view('user.house.sponsor');})->name('sponsor');
     });

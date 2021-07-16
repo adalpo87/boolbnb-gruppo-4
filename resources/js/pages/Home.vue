@@ -3,7 +3,7 @@
 
         <h1>QUESTA E' LA HOME</h1>
 
-        <router-link class="nav-link" :to="{name: 'search'}">Search</router-link>
+        <router-link class="nav-link" :to="{name: 'results'}">Vedi risultati</router-link>
         <router-link class="nav-link" :to="{name: 'advsearch'}">Advanced Search</router-link>
         
     
