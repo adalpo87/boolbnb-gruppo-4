@@ -14,7 +14,7 @@ class HouseController extends Controller
      */
     public function index()
     {
-        //
+        return view('user.house.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class HouseController extends Controller
      */
     public function create()
     {
-        //
+        return view('user.house.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class HouseController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**

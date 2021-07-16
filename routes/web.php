@@ -27,8 +27,18 @@ Route::middleware('auth')
     ->prefix('user')
     ->group(function(){
         Route::get('/','HomeController@index')->name('home');
+        Route::resource('/house', 'HouseController');
+        Route::get('/message', function () {
+            return view('user.house.message');})->name('message');
+        Route::get('/sponsor', function () {
+            return view('user.house.sponsor');})->name('sponsor');
     });
+
+
+
 
 Route::get('{any?}', function(){
         return view('guest.home');
     })->where('any','.*');
+
+
