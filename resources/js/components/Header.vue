@@ -2,7 +2,7 @@
     <header class="text-center">
         <h1>Questo è l header</h1>
         <router-link class="nav-link" :to="{name: 'home'}">Torna alla home</router-link>
-        <router-link class="nav-link" :to="{name: 'advsearch'}">Advanced Search</router-link>
+        <router-link class="nav-link" :to="{name: 'results'}">Search</router-link>
         <a href="http://localhost:8000/user">Login</a>
         <a href="http://localhost:8000/register">Register</a>
     </header>

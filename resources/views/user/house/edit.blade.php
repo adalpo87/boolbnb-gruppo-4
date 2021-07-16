@@ -5,10 +5,11 @@
     
     <h1>PAGINA EDIT</h1>
     <h1>CASA 1</h1>
-    <a href="">show</a>
-    <a href="">statistiche</a>
-    <a href="{{ route('user.message.show') }}">messaggi</a>
-    <a href="{{ route('user.sponsor') }}">sponsorizza</a>
+    
 
+    <a href="http://localhost:8000/house">Visualizza risultato finale</a>
+    
+   
+ 
 </div>
 @endsection

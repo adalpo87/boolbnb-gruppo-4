@@ -30,8 +30,7 @@ Route::middleware('auth')
         Route::get('/','HomeController@index')->name('home');
         Route::resource('/house', 'HouseController');
         Route::resource('/message', 'MessageController');
-        Route::get('/sponsor', function () {
-            return view('user.house.sponsor');})->name('sponsor');
+        Route::get('/sponsor', 'SponsorController@index')->name('sponsor');
     });
 
 

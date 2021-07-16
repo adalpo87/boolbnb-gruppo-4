@@ -235,6 +235,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Home'
 });
@@ -307,8 +308,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'Search'
+  name: 'Results'
 });
 
 /***/ }),
@@ -1614,8 +1631,8 @@ var render = function() {
       _vm._v(" "),
       _c(
         "router-link",
-        { staticClass: "nav-link", attrs: { to: { name: "advsearch" } } },
-        [_vm._v("Advanced Search")]
+        { staticClass: "nav-link", attrs: { to: { name: "results" } } },
+        [_vm._v("Search")]
       ),
       _vm._v(" "),
       _c("a", { attrs: { href: "http://localhost:8000/user" } }, [
@@ -1729,15 +1746,13 @@ var render = function() {
       _vm._v(" "),
       _c(
         "router-link",
-        { staticClass: "nav-link", attrs: { to: { name: "results" } } },
-        [_vm._v("Vedi risultati")]
+        { staticClass: "nav-link", attrs: { to: { name: "advsearch" } } },
+        [_vm._v("Ricerca avanzata")]
       ),
       _vm._v(" "),
-      _c(
-        "router-link",
-        { staticClass: "nav-link", attrs: { to: { name: "advsearch" } } },
-        [_vm._v("Advanced Search")]
-      )
+      _c("p", [_vm._v("JUMBOTRON")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("SLIDER SPONSOR")])
     ],
     1
   )
@@ -1846,12 +1861,31 @@ var render = function() {
         "router-link",
         { staticClass: "nav-link", attrs: { to: { name: "house" } } },
         [_vm._v("House")]
-      )
+      ),
+      _vm._v(" "),
+      _vm._m(0)
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", [
+      _c("li", [_vm._v("\n        risultato\n      ")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("\n        risultato\n      ")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("\n        risultato\n      ")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("\n        risultato\n      ")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("\n        risultato\n      ")])
+    ])
+  }
+]
 render._withStripped = true
 
 
