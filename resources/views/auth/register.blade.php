@@ -15,7 +15,7 @@
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" autocomplete="name" autofocus>
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" autocomplete="name" autofocus>
                             </div>
                         </div>
 
@@ -23,7 +23,7 @@
                             <label for="surname" class="col-md-4 col-form-label text-md-right">{{ __('Surname') }}</label>
 
                             <div class="col-md-6">
-                                <input id="surname" type="text" class="form-control @error('surname') is-invalid @enderror" name="surname" value="{{ old('surname') }}"  autocomplete="surname" autofocus>
+                                <input id="surname" type="text" class="form-control" name="surname" value="{{ old('surname') }}"  autocomplete="surname" autofocus>
                             </div>
                         </div>
                         
@@ -31,7 +31,7 @@
                             <label for="date_of_birth" class="col-md-4 col-form-label text-md-right">{{ __('Date of Birth') }}</label>
 
                             <div class="col-md-6">
-                                <input id="date_of_birth" type="date" class="form-control @error('date_of_birth') is-invalid @enderror" name="date_of_birth" value="{{ old('date_of_birth') }}" autocomplete="date" autofocus>
+                                <input id="date_of_birth" type="date" class="form-control" name="date_of_birth" value="{{ old('date_of_birth') }}" autocomplete="date" autofocus>
                             </div>
                         </div>
 
